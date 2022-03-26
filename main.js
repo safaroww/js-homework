@@ -1,26 +1,48 @@
-const user = {
-    name: 'Elnur',
-    height: 179,
-    phone: {
-        model: 'Iphone',
-    },
-    orders: ['book', 'mouse', 'mousepad']
-}
+// const vaxt = () => console.log("bes saniye bitdi")
+// const func = () => {
+//     vaxt()                                               //1 ci misal isledi
+// }
+// setTimeout(func, 5000);
 
-user.height++
 
-user.phone.model = "Samsung"
 
-user.phone.marka = "s22"
 
-delete user.name
+// function say (){
+//     let start = 100;
+//     const interval = setInterval(() => {
+//         console.log(start);
+//         start--
+//         if(start<=0){
+//             clearInterval(interval)
+//             console.log("geri sayim bitdi")
+//         }                                                //2 ci misal isleyir
+//     }, 1000);
+    
+// }
+// say()
 
-delete user.orders[0]
 
-// delete user.orders.length[-1]    ???
 
-user.orders[0] = "ball"
 
-user.orders[-1] = "headphones"
 
-console.log(user)
+// const number = 65.4345
+// const roundNumber = Math.round(number)                   // 3 cu misal isledi
+// console.log(roundNumber)
+
+
+
+// const randomElement = Math.round(Math.random() * 10)     // 4 cu misal isledi
+// console.log(randomElement)
+
+
+
+// const date = new Date()                                       // 5 ci misal isledi
+// date.toTimeString
+// console.log(date.toTimeString())
+
+
+
+// const date1 = new Date()
+// const currentYear = date1.getFullYear()
+// date1.setFullYear(currentYear+1)
+// console.log(date1.getDay())
